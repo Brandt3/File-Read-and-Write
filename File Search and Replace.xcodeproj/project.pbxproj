@@ -42,7 +42,8 @@
 		65A15A552BBF7EA30049F893 = {
 			isa = PBXGroup;
 			children = (
-				65A15A602BBF7EA30049F893 /* File Search and Replace */,
+				65A15A612BBF7EA30049F893 /* main.cpp */,
+				6556AF452D272B57003E0DE7 /* README.md */,
 				65A15A5F2BBF7EA30049F893 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,15 +54,6 @@
 				65A15A5E2BBF7EA30049F893 /* File Search and Replace */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		65A15A602BBF7EA30049F893 /* File Search and Replace */ = {
-			isa = PBXGroup;
-			children = (
-				65A15A612BBF7EA30049F893 /* main.cpp */,
-				6556AF452D272B57003E0DE7 /* README.md */,
-			);
-			path = "File Search and Replace";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
