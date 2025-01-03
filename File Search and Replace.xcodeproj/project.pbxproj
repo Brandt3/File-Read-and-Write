@@ -23,7 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65A15A5E2BBF7EA30049F893 /* Project 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6556AF452D272B57003E0DE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65A15A5E2BBF7EA30049F893 /* File Search and Replace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "File Search and Replace"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A15A612BBF7EA30049F893 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +42,7 @@
 		65A15A552BBF7EA30049F893 = {
 			isa = PBXGroup;
 			children = (
-				65A15A602BBF7EA30049F893 /* Project 3 */,
+				65A15A602BBF7EA30049F893 /* File Search and Replace */,
 				65A15A5F2BBF7EA30049F893 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +50,26 @@
 		65A15A5F2BBF7EA30049F893 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65A15A5E2BBF7EA30049F893 /* Project 3 */,
+				65A15A5E2BBF7EA30049F893 /* File Search and Replace */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65A15A602BBF7EA30049F893 /* Project 3 */ = {
+		65A15A602BBF7EA30049F893 /* File Search and Replace */ = {
 			isa = PBXGroup;
 			children = (
 				65A15A612BBF7EA30049F893 /* main.cpp */,
+				6556AF452D272B57003E0DE7 /* README.md */,
 			);
-			path = "Project 3";
+			path = "File Search and Replace";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65A15A5D2BBF7EA30049F893 /* Project 3 */ = {
+		65A15A5D2BBF7EA30049F893 /* File Search and Replace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65A15A652BBF7EA30049F893 /* Build configuration list for PBXNativeTarget "Project 3" */;
+			buildConfigurationList = 65A15A652BBF7EA30049F893 /* Build configuration list for PBXNativeTarget "File Search and Replace" */;
 			buildPhases = (
 				65A15A5A2BBF7EA30049F893 /* Sources */,
 				65A15A5B2BBF7EA30049F893 /* Frameworks */,
@@ -77,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project 3";
+			name = "File Search and Replace";
 			productName = "Project 3";
-			productReference = 65A15A5E2BBF7EA30049F893 /* Project 3 */;
+			productReference = 65A15A5E2BBF7EA30049F893 /* File Search and Replace */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65A15A592BBF7EA30049F893 /* Build configuration list for PBXProject "Project 3" */;
+			buildConfigurationList = 65A15A592BBF7EA30049F893 /* Build configuration list for PBXProject "File Search and Replace" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65A15A5D2BBF7EA30049F893 /* Project 3 */,
+				65A15A5D2BBF7EA30049F893 /* File Search and Replace */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65A15A592BBF7EA30049F893 /* Build configuration list for PBXProject "Project 3" */ = {
+		65A15A592BBF7EA30049F893 /* Build configuration list for PBXProject "File Search and Replace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65A15A632BBF7EA30049F893 /* Debug */,
@@ -269,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65A15A652BBF7EA30049F893 /* Build configuration list for PBXNativeTarget "Project 3" */ = {
+		65A15A652BBF7EA30049F893 /* Build configuration list for PBXNativeTarget "File Search and Replace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65A15A662BBF7EA30049F893 /* Debug */,

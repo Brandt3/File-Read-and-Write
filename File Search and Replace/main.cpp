@@ -1,4 +1,4 @@
-//Project 3
+//Search and Replace Porject
 //Brandt Konik
 #include <iostream>
 #include <fstream>
@@ -101,7 +101,7 @@ void replace_word_print(ifstream *i, fstream *f, string *f_n, string *t, string 
     //Check to see if the word was found in the file or not
     if(*ch) {
         f->open((*f_n).c_str(), ios::out | ios::trunc);
-        //This line i found doing some googling and it opens the file to write and clears its contents so then I don't duplicate the file content
+        //This line opens the file to write and clears its contents so then I don't duplicate the file content
         f->seekp(0); //brings pointer back to the start of the file for when I write
         (*f) << (oss).str(); //writes new words with replaced text in there
     }
